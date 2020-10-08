@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+:root {
+  --desktop-color: #24282D;
+  --calculator-body-color: #768197;
+  --color-inside-display: #CBCECB;
+  --button-background-color: #2B2E33;
+  --button-color: #768197;
+  --reset-button-color: #696E7E;
+  --basic-operation-button-color: #FFAB07;
+  --button-color-pressed: #696E7E;
+  --button-color-inactive: gray;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    outline: 0;
+}
+
+body {
+    background: var(--desktop-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.painel {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  grid-template-rows: 80px 50px;
+  padding: 10px;
+  border-radius: 20px;
+  border-style: outset;
+  border-color: var(--calculator-body-color);
+  background: var(--calculator-body-color);
+}
+
+.painel__button {
+  padding: 5px 0;
+  font-size: 30px;
+  background-color: var(--button-background-color);
+  width: 50px;
+  border-radius: 15px;
+  color: var(--button-color);
+}
+
+.painel__display {
+  grid-column: 1 / 5;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: var(--color-inside-display);
+  text-align: right;
+  width: 230px;
+  font-size: 50px;
+}
+
+.painel__button--equal {
+  grid-column: 3 / 5;
+  width: auto;
+  color: var(--basic-operation-button-color);
+}
+
+.painel__button--basic-operation {
+  color: var(--basic-operation-button-color);
+}
+
+.painel__button--reset {
+  color: var(--reset-button-color);
+}
+
+.painel__button--inactive {
+  color: var(--button-color-inactive);
+}
