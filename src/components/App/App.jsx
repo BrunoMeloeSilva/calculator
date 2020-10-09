@@ -10,8 +10,8 @@ function App() {
     return <div className="painel">
         <input className="painel__display" type="number" readOnly value={result}/>
         <button onClick={e => SetResult(buildOperation(e))} className="painel__button painel__button--reset">AC</button>
-        <button onClick={e => SetResult(buildOperation(e))} className="painel__button painel__button--inactive">+/-</button>
-        <button onClick={e => SetResult(buildOperation(e))} className="painel__button painel__button--inactive">%</button>
+        <button className="painel__button painel__button--inactive" disabled>+/-</button>
+        <button className="painel__button painel__button--inactive" disabled>%</button>
         <button onClick={e => SetResult(buildOperation(e))} className="painel__button painel__button--basic-operation">÷</button>
         <button onClick={e => SetResult(buildOperation(e))} className="painel__button">7</button>
         <button onClick={e => SetResult(buildOperation(e))} className="painel__button">8</button>
