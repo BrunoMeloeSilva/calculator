@@ -1,33 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
-
-:root {
-  --desktop-color: #24282D;
-  --calculator-body-color: #768197;
-  --color-inside-display: #CBCECB;
-  --button-background-color: #2B2E33;
-  --button-color: #768197;
-  --reset-button-color: #696E7E;
-  --basic-operation-button-color: #FFAB07;
-  --button-color-pressed: #696E7E;
-  --button-color-inactive: gray;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Source Sans Pro', sans-serif;
-    outline: 0;
-}
-
-body {
-    background: var(--desktop-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
 .painel {
   display: grid;
   grid-template-columns: auto auto auto auto;
