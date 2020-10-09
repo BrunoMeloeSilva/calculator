@@ -1,0 +1,26 @@
+.painel__button {
+    padding: 5px 0;
+    font-size: 30px;
+    background-color: var(--button-background-color);
+    width: 50px;
+    border-radius: 15px;
+    color: var(--button-color);
+}
+
+.painel__button--equal {
+    grid-column: 3 / 5;
+    width: auto;
+    color: var(--basic-operation-button-color);
+}
+  
+.painel__button--basic-operation {
+    color: var(--basic-operation-button-color);
+}
+  
+.painel__button--reset {
+    color: var(--reset-button-color);
+}
+  
+.painel__button--inactive {
+    color: var(--button-color-inactive);
+}
