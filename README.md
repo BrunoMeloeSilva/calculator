@@ -1,3 +1,10 @@
+## O Projeto
+
+Ele foi construído com ReactJS.
+
+![calculator](https://user-images.githubusercontent.com/11445748/95734917-1db22d80-0c52-11eb-88e3-36dc4a912183.gif)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
