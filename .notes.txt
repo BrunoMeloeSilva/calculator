@@ -1,0 +1,22 @@
+# Gerando o diretorio build para produção
+
+npm run build
+
+# Deletando os arquivos map (serve para indicar o local de erro no código) para reduzir o tamanho do build
+
+A) pode entrar nos subdiretórios de build e deletar manualmente
+OU
+B) Criar na pasta raiz do projeto um arquivo .env com o conteudo: GENERATE_SOURCEMAP = false
+    que já irá gerar o diretorio build sem os map
+
+# Intruções para servir o build : Ao gerar o build 'ele' já dá instruções de como servir
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+Find out more about deployment here:
+
+  bit.ly/CRA-deploy
