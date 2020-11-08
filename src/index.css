@@ -2,22 +2,25 @@
 
 :root {
   --desktop-color: #24282D;
-  --calculator-body-color: #768197;
+  --calculator-body-color: #ebf5fc;
   --color-inside-display: #CBCECB;
-  --button-background-color: #2B2E33;
-  --button-color: #768197;
-  --reset-button-color: #5e6683;
+  --button-background-color: white;
+  --button-color: #000;
+  --reset-button-color: #696E7E;
   --basic-operation-button-color: #FFAB07;
   --button-color-pressed: #696E7E;
   --button-color-inactive: gray;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Source Sans Pro', sans-serif;
-    outline: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: default;
+  user-select: none;
+  border: none;
+  outline-style: none;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {

@@ -2,10 +2,17 @@
     padding: 5px 0;
     font-size: 30px;
     background-color: var(--button-background-color);
+    box-shadow: -2px -2px 5px rgba(255, 255, 255, 1),
+               3px 3px 5px rgba(0, 0, 0, 0.1);
     width: 50px;
     border-radius: 15px;
     color: var(--button-color);
 }
+
+.painel__button:active {
+    box-shadow: inset -2px -2px 5px rgba(255, 255, 255, 1),
+                inset 3px 3px 5px rgba(0, 0, 0, 0.1);
+  }
 
 .painel__button--equal {
     grid-column: 3 / 5;
